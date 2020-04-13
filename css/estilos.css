@@ -1,0 +1,86 @@
+  .imgRedonda {
+    width:100px;
+    height:100px;
+    border-radius:160px;
+    border:2px solid #666;
+    position: absolute;
+    float: right;
+  }
+
+  .border-bottom {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px #ddd dashed;
+    padding-bottom: 10px;
+  }
+/*------------------banner--------------------------*/
+.banner {
+  width: 1345px;
+  height: 102px;
+  position:absolute;
+  background: black;
+  margin: auto;
+  border: 2px solid #2D7135;
+  color: #7DCDDB;
+
+}
+/*----------------------------------------menu----------------------*/
+.ca-menu li{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #291F29;
+    overflow: hidden;
+    position: relative;
+    float:right;
+    background: black;
+    margin-right: 135px;
+    box-shadow: 1px 1px 2px #2D3E38;
+    border-radius: 160px;
+    transition: all 400ms linear;
+    
+
+}
+
+.ca-menu li:hover{
+    background:black;
+    border-color: #fff;
+    transform: rotate(360deg);
+}
+.ca-menu li:hover .ca-icon{
+    color: #555;
+    font-size: 60px;
+}
+.ca-menu li:hover .ca-main{
+    display: none;
+}
+.ca-menu li:hover .ca-sub{
+    opacity: 0.8;
+}
+
+
+
+
+
+/*--------------------------footer-----------------------------*/
+  .footer {
+    position: relative;
+    width: 100%;
+    margin-top: -50px;
+    height: 150px;
+    padding:5px 0px;
+    clear: both;
+    background:#050505;
+    text-align: center;
+    color: #15DEE4;
+    bottom: 0px;
+   }
+
+  .define {
+    width:960px;
+    margin:0 auto;
+}
+
+/*--------------------menu desplegable------------------------*/
+.logo{
+  text-align: center;
+}
